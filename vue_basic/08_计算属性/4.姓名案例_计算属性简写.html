@@ -12,6 +12,7 @@
 			姓：<input type="text" v-model="firstName"> <br/><br/>
 			名：<input type="text" v-model="lastName"> <br/><br/>
 			全名：<span>{{fullName}}</span> <br/><br/>
+			<p>{{calSum}}</p>
 		</div>
 	</body>
 
@@ -23,6 +24,8 @@
 			data:{
 				firstName:'张',
 				lastName:'三',
+				num1: 20,
+				num2: 30,
 			},
 			computed:{
 				//完整写法
@@ -40,8 +43,12 @@
 				} */
 				//简写
 				fullName(){
-					console.log('get被调用了')
+					console.log('fullName被调用了')
 					return this.firstName + '-' + this.lastName
+				},
+				calSum(){
+					console.log('calSum被调用了')
+					return this.num1 * this.num2
 				}
 			}
 		})
