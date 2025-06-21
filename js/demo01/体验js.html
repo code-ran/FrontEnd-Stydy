@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<button class="blue">按钮1</button>
+<button>按钮2</button>
+<button>按钮3</button>
+<button>按钮4</button>
+<script src="demo.js">
+    // 如下代码失效
+    let bts = document.querySelectorAll('button');
+    for (let i = 0; i < bts.length; i++) {
+        bts[i].addEventListener('click', function () {
+            document.querySelector('.blue').className = ''
+            this.className = 'blue'
+        })
+    }
+</script>
+
+</body>
+</html>

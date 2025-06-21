@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let array = ['zhangsan',123,'aaa']
+        console.log('array:',array);
+
+        //尾部添加元素
+        array.push('李四')
+        console.log('push后array:',array);
+
+        //动态像数组头部添加一个元素
+        array.unshift('王五')
+        console.log('unshift后array:',array);
+
+        //删除最后一个元素
+        array.pop();
+        console.log('pop后array:',array);
+
+        //删除第一个元素
+        array.shift()
+        console.log('shift后array:',array);
+
+        //动态删除任意元素
+        array.splice(1,1)//从索引为1的位置开始删除一个元素
+        console.log('splice后array:',array);
+    </script>
+</body>
+</html>
