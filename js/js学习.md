@@ -2,7 +2,7 @@
 
   js是一种运行在客户端（浏览器）的编程语言，可以实现人机交互效果。
 
- ![image-20250528053015603](D:\github\qianduan_learn\js\js学习.assets\image-20250528053015603.png)
+ ![image-20250528053015603](js学习.assets\image-20250528053015603.png)
 
 常用在线文档： https://developer.mozilla.org/zh-CN/
 
@@ -89,7 +89,7 @@ document.write('<h1>我是h1标题标签</h1>')
 </html>
 ```
 
-![image-20250528061901356](D:\github\qianduan_learn\js\js学习.assets\image-20250528061901356.png)
+![image-20250528061901356](js学习.assets\image-20250528061901356.png)
 
 ###### alert()
 
@@ -104,7 +104,7 @@ document.write('<h1>我是h1标题标签</h1>')
 alert('告警提示窗')
 ```
 
-![image-20250528062227777](D:\github\qianduan_learn\js\js学习.assets\image-20250528062227777.png)
+![image-20250528062227777](js学习.assets\image-20250528062227777.png)
 
 ###### console.log()
 
@@ -114,7 +114,7 @@ alert('告警提示窗')
 console.log('调试日志')
 ```
 
-![image-20250528062522280](D:\github\qianduan_learn\js\js学习.assets\image-20250528062522280.png)
+![image-20250528062522280](js学习.assets\image-20250528062522280.png)
 
 ##### 输入 
 
@@ -222,7 +222,7 @@ console.log(G)
 
 ### 数据类型
 
-![image-20250528082947602](D:\github\qianduan_learn\js\js学习.assets\image-20250528082947602.png)
+![image-20250528082947602](js学习.assets\image-20250528082947602.png)
 
 #### 基本数据类型
 
@@ -416,11 +416,11 @@ NaN不等于任何值，包括它本身。
 
 #### 运算符优先级
 
-![image-20250528203937202](D:\github\qianduan_learn\js\js学习.assets\image-20250528203937202.png)
+![image-20250528203937202](js学习.assets\image-20250528203937202.png)
 
 ### 语句
 
-![image-20250528204341801](D:\github\qianduan_learn\js\js学习.assets\image-20250528204341801.png)
+![image-20250528204341801](js学习.assets\image-20250528204341801.png)
 
 #### 分支语句
 
@@ -567,4 +567,4 @@ console.log(mixin.length)
     </script>
 ```
 
-![image-20250529071021308](D:\github\qianduan_learn\js\js学习.assets\image-20250529071021308.png)
+![image-20250529071021308](js学习.assets\image-20250529071021308.png)
